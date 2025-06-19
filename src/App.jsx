@@ -1,8 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Header from "./Header";
-import Notes from "./Notes";
-import MainApp from "./MainApp";
-import MainNote from "./MainNote";
+import Header from "./components/Header";
+import MainApp from "./components/MainApp";
+import MainNote from "./components/MainNote";
 const initialNotes = [
       {
         id: "1",
