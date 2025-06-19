@@ -1,12 +1,31 @@
-# React + Vite
+# 📝 NotesApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive notes application built with **React** and **Tailwind CSS**, featuring:
+- Add, view, edit, and delete notes
+- Real-time saving with `localStorage`
+- Masonry-style layout for responsive design
+- Last edited timestamps
+- Auto-resizing text areas
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Create unlimited notes with one click
+- ✍️ Edit title and content inline
+- 💾 All notes are stored in `localStorage`
+- 📆 “Last Edited” timestamp shown
+- 🧱 Pinterest-style responsive layout using `columns`
+- 🗑 Delete notes using a delete button (hover top-right)
+- 🔁 Real-time updates (no need to save manually)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Frontend       | Styling        | Routing          | Icons              |
+|----------------|----------------|------------------|--------------------|
+| React.js       | Tailwind CSS   | React Router DOM | Lucide React Icons |
+
+---
+
